@@ -1,25 +1,25 @@
-function addition(a, b) {
-    return a + b;
+function adicao(a, b) {
+  return a + b;
 }
 
-function subtraction(a, b) {
-    return a - b;
+function subtracao(a, b) {
+  return a - b;
 }
 
-function multiplication(a, b) {
-    return a * b;
+function multiplicacao(a, b) {
+  return a * b;
 }
 
-function division(a, b) {
-    if (b === 0) {
-        return "Error: divisão por zero!";
-    }
-    return a / b;
+function divisao(a, b) {
+  if (b === 0) {
+    return "Erro: divisão por zero!";
+  }
+  return a / b;
 }
 
 module.exports = {
-    addition,
-    subtraction,
-    multiplication,
-    division
+  adicao,
+  subtracao,
+  multiplicacao,
+  divisao,
 };
